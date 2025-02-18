@@ -55,6 +55,14 @@ export default class CartesianLinearAxis extends CartesianAxis {
     this._content.ticks.suggestedMin = v;
   }
 
+  @api
+  get reverse() {
+    return this._content.ticks.reverse;
+  }
+  set reverse(v) {
+    this._content.ticks.reverse = parseBoolean(v);
+  }
+
   constructor() {
     super();
     this._content.type = CARTESIAN_AXIS_TYPE_LINEAR;

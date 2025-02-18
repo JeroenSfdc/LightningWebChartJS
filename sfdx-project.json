@@ -1,15 +1,15 @@
 {
   "packageDirectories": [
     {
-      "path": "force-app/main",
-      "default": true
-    },
-    {
-      "path": "force-app/sample",
-      "default": false
+      "versionName": "1.0",
+      "versionNumber": "1.0.0.NEXT",
+      "path": "force-app/main/default",
+      "default": true,
+      "package": "LWCC Unlocked Package",
+      "versionDescription": "LWCC (Lightning Web Chart Component) - Unlocked Package"
     }
   ],
-  "namespace": "",
+  "namespace": "<provide registered namespace>",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "54.0"
+  "sourceApiVersion": "62.0"
 }

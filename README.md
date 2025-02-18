@@ -51,6 +51,12 @@
 
 Contributions are what make the trailblazer community such an amazing place. I regard this component as a way to inspire and learn from others. Any contributions you make are **greatly appreciated**.
 
+## Unlocked package with namespace support
+
+Since the managed package is no longer maintained, you can now take advantage of a namespace'd Unlocked Package alternative.
+Have the Unlocked Package created in your DevHub using a (registered) namespace to isolete the LWCC codebase.
+For that update the sfdx-project.json. The namespace'd Unlocked Package will behave similar to the managed package.
+
 See [contributing.md](/CONTRIBUTING.md) for lwcc principles.
 
 ## Dependencies
